@@ -54,7 +54,7 @@ name.snakeCased() // "some_class"
 ```
 
 #### Alternative
-You can alternatively apply styling by using `.applying(caseStyle:)`:
+You can alternatively apply styling by using `.applying(caseStyle: String.CaseStyle)`:
 ```swift
 let name = "SomeClass"
 name.applying(caseStyle: .lowerCamelCase) // "someClass"

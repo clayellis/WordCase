@@ -44,15 +44,17 @@ extension String {
 
 // MARK: - Public
 
-public enum CaseStyle {
-    /// Example: UpperCamelCase
-    case upperCamelCase
+extension String {
+    public enum CaseStyle {
+        /// Example: UpperCamelCase
+        case upperCamelCase
 
-    /// Example: lowerCamelCase
-    case lowerCamelCase
+        /// Example: lowerCamelCase
+        case lowerCamelCase
 
-    /// Example: snake_case
-    case snakeCase
+        /// Example: snake_case
+        case snakeCase
+    }
 }
 
 extension String {
