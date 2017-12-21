@@ -1,8 +1,8 @@
-# WordCase
+# 🐫 WordCase
 
 Swift utilities for getting words out of a sentence or a compound word and applying programmatic casing.
 
-### Words
+## Words
 
 Retrieve words from a sentence or a compound word:
 ```swift
