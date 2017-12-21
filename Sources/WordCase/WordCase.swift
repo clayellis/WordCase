@@ -1,5 +1,7 @@
 import Foundation
 
+// MARK: - Internal
+
 extension CharacterSet {
     func contains(charactersIn string: String) -> Bool {
         return isSuperset(of: CharacterSet(charactersIn: string))
@@ -39,6 +41,8 @@ extension String {
         return self == uppercased()
     }
 }
+
+// MARK: - Public
 
 public enum CaseStyle {
     /// Example: UpperCamelCase
