@@ -13,7 +13,7 @@ let compound = "HelloWorld"
 compound.words() // ["Hello", "World"]
 ```
 
-### Acronyms
+## Acronyms
 
 Retrieve the acronym from a sentence or a compound word:
 ```swift
@@ -24,7 +24,7 @@ let compound = "UniversalResourceLocator"
 compound.acronym() // "URL"
 ```
 
-### Casing
+## Casing
 
 Apply programmatic casing:
 
@@ -60,7 +60,7 @@ let name = "SomeClass"
 name.applying(caseStyle: .lowerCamelCase) // "someClass"
 ```
 
-### Options
+## Options
 Specify options for customizing return values `.words(withOptions: String.WordOption)` (available on all of the above methods):
 - `.distinguishHyphenatedWords`: Hyphenated words will be returned as two separate words.
 - `.stripHyphens`: Hyphens (`-`) will be stripped from the return value.
