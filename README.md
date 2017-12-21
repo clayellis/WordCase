@@ -61,7 +61,9 @@ name.applying(caseStyle: .lowerCamelCase) // "someClass"
 ```
 
 ## Options
-Specify options for customizing return values `.words(withOptions: String.WordOption)` (available on all of the above methods):
+Specify options for customizing return values:
+`.words(withOptions: String.WordOption)`
+*(Available on all of the above methods.)*
 - `.distinguishHyphenatedWords`: Hyphenated words will be returned as two separate words.
 - `.stripHyphens`: Hyphens (`-`) will be stripped from the return value.
 - `.stripApostrophes`: Apostrophes (`'`) will be stripped from the return value.
