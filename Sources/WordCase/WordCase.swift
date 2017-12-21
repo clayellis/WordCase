@@ -75,7 +75,7 @@ extension String {
         ///
         public static let stripHyphens = WordOption(rawValue: 2)
 
-        /// Apostrophes (`'`) will be stripped from the return value
+        /// Apostrophes (`'`) will be stripped from the return value.
         ///
         /// Example: `"won't"` would be returned as `"wont"`.
         ///
@@ -213,11 +213,11 @@ extension String {
             .lowercased()
     }
 
-    public func applying(caseStyle: CaseStyle) -> String {
+    public func applying(caseStyle: CaseStyle, withOptions options: WordOption) -> String {
         switch caseStyle {
-        case .upperCamelCase: return upperCamelCased()
-        case .lowerCamelCase: return lowerCamelCased()
-        case .snakeCase: return snakeCased()
+        case .upperCamelCase: return upperCamelCased(withOptions: options)
+        case .lowerCamelCase: return lowerCamelCased(withOptions: options)
+        case .snakeCase: return snakeCased(withOptions: options)
         }
     }
 }
